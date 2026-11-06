@@ -4,7 +4,7 @@ import {
   Send, Sparkles, CheckCircle2, Calendar, MapPin, 
   Users, Mail, Phone, User, MessageSquare, AlertCircle
 } from 'lucide-react';
-import confetti from 'canvas-confetti';
+import { triggerChampagneConfetti } from '../../utils/confetti';
 import { BookingFormData, InvestmentPackage } from '../../types';
 import { INVESTMENT_PACKAGES } from '../../data/packagesData';
 
@@ -109,12 +109,7 @@ export const BookingSection: React.FC<BookingSectionProps> = ({
 
       // Trigger celebratory champagne golden confetti
       try {
-        confetti({
-          particleCount: 80,
-          spread: 70,
-          origin: { y: 0.6 },
-          colors: ['#D4AF37', '#F3E5AB', '#FFFFFF', '#997E25'],
-        });
+        triggerChampagneConfetti();
       } catch {
         // Fallback gracefully
       }
