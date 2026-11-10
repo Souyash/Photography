@@ -165,7 +165,7 @@ export function App() {
           onOpenBooking={handleOpenBooking}
         />
 
-        {/* Studio Philosophy & Artist Bio (Sudipto Mukherjee) */}
+        {/* Studio Philosophy & Artist Bio (Sabyasachi Banerjee) */}
         <AboutSection />
 
         {/* Filterable Portfolio Gallery */}
@@ -190,7 +190,7 @@ export function App() {
         {/* Physical Artifacts & Bespoke Heirloom Albums */}
         <AlbumExperience />
 
-        {/* Sudipto's Optical Toolkit */}
+        {/* Sabyasachi's Optical Toolkit */}
         <GearToolkit />
 
         {/* Client Reviews & Social Proof */}

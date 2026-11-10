@@ -148,7 +148,7 @@ export const ReviewsSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
             <div>
               <span className="text-xs uppercase tracking-widest text-[#D4AF37] font-semibold flex items-center gap-2">
-                <InstagramIcon className="w-4 h-4 text-[#D4AF37]" /> @aureliastudiophoto
+                <InstagramIcon className="w-4 h-4 text-[#D4AF37]" /> @sabyasachibanerjee_official
               </span>
               <h3 className="font-serif text-2xl sm:text-3xl text-white font-normal mt-1">
                 From the Studio Journal

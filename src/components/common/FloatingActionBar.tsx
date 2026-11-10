@@ -44,7 +44,7 @@ export const FloatingActionBar: React.FC<FloatingActionBarProps> = ({
         >
           {/* Quick WhatsApp Concierge */}
           <a
-            href="https://wa.me/12125550198?text=Hello%20Sudipto,%20I%20would%20like%20to%20inquire%20about%20photography%20availability%20for%20our%20upcoming%20event."
+            href="https://wa.me/12125550198?text=Hello%20Sabyasachi,%20I%20would%20like%20to%20inquire%20about%20photography%20availability%20for%20our%20upcoming%20event."
             target="_blank"
             rel="noopener noreferrer"
             title="Chat on WhatsApp"

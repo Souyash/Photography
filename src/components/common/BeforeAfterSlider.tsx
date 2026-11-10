@@ -121,7 +121,7 @@ export const BeforeAfterSlider: React.FC = () => {
             {/* Background Image: Master Color Grade */}
             <img
               src={activePair.afterImg}
-              alt="Aurelia Master Grade"
+              alt="Sabyasachi Master Grade"
               className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             />
 
@@ -160,7 +160,7 @@ export const BeforeAfterSlider: React.FC = () => {
 
             <div className="absolute top-4 right-4 pointer-events-none">
               <span className="px-3 py-1.5 rounded-md bg-black/70 backdrop-blur-md border border-[#D4AF37]/50 text-[10px] uppercase font-mono tracking-widest text-[#D4AF37] flex items-center gap-1.5 shadow-lg">
-                <Sparkles className="w-3 h-3 text-[#D4AF37]" /> Aurelia Master Grade
+                <Sparkles className="w-3 h-3 text-[#D4AF37]" /> Sabyasachi Master Grade
               </span>
             </div>
 

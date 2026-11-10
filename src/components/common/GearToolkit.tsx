@@ -59,12 +59,12 @@ export const GearToolkit: React.FC = () => {
               <span>Behind the Lens</span>
             </div>
             <h2 className="font-serif text-4xl sm:text-5xl text-white font-normal tracking-tight">
-              Sudipto's Optical Toolkit
+              Sabyasachi's Optical Toolkit
             </h2>
           </div>
 
           <p className="text-stone-400 text-xs sm:text-sm max-w-md font-light leading-relaxed">
-            Every camera, lens, and analog film roll in Sudipto’s kit is chosen to render lifelike skin tones, handle extreme low light, and preserve high-fidelity memory.
+            Every camera, lens, and analog film roll in Sabyasachi’s kit is chosen to render lifelike skin tones, handle extreme low light, and preserve high-fidelity memory.
           </p>
         </div>
 

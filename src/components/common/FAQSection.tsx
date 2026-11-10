@@ -10,8 +10,8 @@ interface FAQItem {
 const FAQS: FAQItem[] = [
   {
     category: 'Booking & Timeline',
-    question: 'How far in advance should we reserve our date with Sudipto Mukherjee?',
-    answer: 'Because Sudipto personally photographs every commissioned wedding and limits his annual calendar to 20 master celebrations, most couples reserve 9 to 18 months in advance. For destination dates (Lake Como, Paris, Kyoto, Highlands), we recommend inquiring as early as possible to coordinate travel residencies.',
+    question: 'How far in advance should we reserve our date with Sabyasachi Banerjee?',
+    answer: 'Because Sabyasachi personally photographs every commissioned wedding and limits his annual calendar to 20 master celebrations, most couples reserve 9 to 18 months in advance. For destination dates (Lake Como, Paris, Kyoto, Highlands), we recommend inquiring as early as possible to coordinate travel residencies.',
   },
   {
     category: 'Deliverables & Art',
@@ -25,8 +25,8 @@ const FAQS: FAQItem[] = [
   },
   {
     category: 'Booking & Timeline',
-    question: 'What is Sudipto’s approach during the wedding day?',
-    answer: 'Sudipto combines unobtrusive documentary photojournalism with refined editorial direction. During ceremonies, prayers, and heartfelt speeches, he blends into the background using silent electronic shutters to let genuine emotion flow uninterrupted. During couple portrait sessions, he provides relaxed, natural prompts rather than stiff poses, harnessing the most flattering natural light.',
+    question: 'What is Sabyasachi’s approach during the wedding day?',
+    answer: 'Sabyasachi combines unobtrusive documentary photojournalism with refined editorial direction. During ceremonies, prayers, and heartfelt speeches, he blends into the background using silent electronic shutters to let genuine emotion flow uninterrupted. During couple portrait sessions, he provides relaxed, natural prompts rather than stiff poses, harnessing the most flattering natural light.',
   },
   {
     category: 'Deliverables & Art',
@@ -36,7 +36,7 @@ const FAQS: FAQItem[] = [
   {
     category: 'Deliverables & Art',
     question: 'Can we customize our heirloom physical album and cover materials?',
-    answer: 'Absolutely. Every heirloom album included in Collections II and III is custom-designed alongside Sudipto. You select your cover textile (Tuscan full-grain leather, French velvet, or Belgian linen), cover debossing (24k gold foil, blind deboss, or monogram), and approve the digital spread layout before it is hand-bound by master bookbinders in Italy.',
+    answer: 'Absolutely. Every heirloom album included in Collections II and III is custom-designed alongside Sabyasachi. You select your cover textile (Tuscan full-grain leather, French velvet, or Belgian linen), cover debossing (24k gold foil, blind deboss, or monogram), and approve the digital spread layout before it is hand-bound by master bookbinders in Italy.',
   },
 ];
 
@@ -66,7 +66,7 @@ export const FAQSection: React.FC = () => {
           </h2>
 
           <p className="text-stone-400 text-xs sm:text-sm font-light leading-relaxed">
-            Everything you need to know about commissioning Sudipto Mukherjee for your wedding, editorial campaign, or international celebration.
+            Everything you need to know about commissioning Sabyasachi Banerjee for your wedding, editorial campaign, or international celebration.
           </p>
         </div>
 
@@ -146,7 +146,7 @@ export const FAQSection: React.FC = () => {
             href="#booking"
             className="inline-block mt-3 text-xs uppercase tracking-widest text-[#D4AF37] hover:underline font-semibold"
           >
-            Speak directly with Sudipto Mukherjee →
+            Speak directly with Sabyasachi Banerjee →
           </a>
         </div>
       </div>

@@ -9,7 +9,7 @@ export const CLIENT_REVIEWS: ReviewItem[] = [
     location: 'Ravello, Amalfi Coast, Italy',
     rating: 5,
     quote: 'Looking through our wedding gallery reduced both of our families to tears of pure awe. Every shot feels like a frame from an Oscar-winning Italian film.',
-    fullReview: 'Aurelia and her team are true visual poets. When planning our Amalfi celebration, we wanted to avoid the generic staged poses common in wedding photography. Aurelia moved through our weekend with effortless discretion, anticipating raw emotional exchanges between our grandmothers and catching glances between us that we didn’t even know happened. The custom leather album arrived in a walnut keepsake box and is our family’s greatest treasure.',
+    fullReview: 'Sabyasachi and his team are true visual poets. When planning our Amalfi celebration, we wanted to avoid the generic staged poses common in wedding photography. Sabyasachi moved through our weekend with effortless discretion, anticipating raw emotional exchanges between our grandmothers and catching glances between us that we didn’t even know happened. The custom leather album arrived in a walnut keepsake box and is our family’s greatest treasure.',
     thumbnailUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=400',
     publication: 'Vogue Weddings Feature'
   },
@@ -45,7 +45,7 @@ export const CLIENT_REVIEWS: ReviewItem[] = [
     location: 'Tokyo & Milan',
     rating: 5,
     quote: 'Delivered commercial campaign visuals that exceeded our luxury brand benchmark. Punctual, visionary, and technically immaculate.',
-    fullReview: 'We contracted Aurelia Studio for a high-jewelry and couture editorial series across Milan and Tokyo. The dynamic range and texture of the medium format files were staggering. The post-production grading was delivered well ahead of schedule and adapted seamlessly to our global billboards.',
+    fullReview: 'We contracted Sabyasachi Banerjee Studio for a high-jewelry and couture editorial series across Milan and Tokyo. The dynamic range and texture of the medium format files were staggering. The post-production grading was delivered well ahead of schedule and adapted seamlessly to our global billboards.',
     thumbnailUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=400',
     publication: 'Harper’s Bazaar Accolade'
   }

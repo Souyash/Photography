@@ -195,7 +195,7 @@ export const BookingSection: React.FC<BookingSectionProps> = ({
                     <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" /> What Happens Next:
                   </p>
                   <ol className="list-decimal list-inside space-y-1 text-stone-400 font-light">
-                    <li>Personal review by Sudipto Mukherjee within 24 hours to confirm date exclusivity.</li>
+                    <li>Personal review by Sabyasachi Banerjee within 24 hours to confirm date exclusivity.</li>
                     <li>You will receive a personalized digital lookbook and moodboard treatment.</li>
                     <li>Invitation to a private 20-minute video or studio champagne consultation.</li>
                   </ol>
@@ -410,7 +410,7 @@ export const BookingSection: React.FC<BookingSectionProps> = ({
                       onChange={handleChange}
                       className="w-full bg-[#18181B] border border-white/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-[#D4AF37] transition-colors"
                     >
-                      <option value="Instagram">Instagram (@aureliastudiophoto)</option>
+                      <option value="Instagram">Instagram (@sabyasachibanerjee_official)</option>
                       <option value="Vogue / Editorial Press">Vogue / Press Feature</option>
                       <option value="Wedding Planner Recommendation">Wedding Planner Recommendation</option>
                       <option value="Friend / Family Referral">Friend / Family Referral</option>

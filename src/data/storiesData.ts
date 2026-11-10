@@ -48,7 +48,7 @@ export const FEATURED_STORIES: StorySpread[] = [
     category: 'Kyoto, Japan',
     location: 'Tenryu-ji & Private Cedar Estate',
     date: 'May 2024',
-    quote: 'Aurelia’s intuitive command of quiet, reverent moments produced portraits that evoke our ancestors while celebrating our modern journey.',
+    quote: 'Sabyasachi’s intuitive command of quiet, reverent moments produced portraits that evoke our ancestors while celebrating our modern journey.',
     quoteAuthor: 'Hana & Kenji, Kyoto',
     narrative: [
       'Nestled deep inside the Arashiyama bamboo sanctuary, Hana and Kenji celebrated an intimate wedding steeped in traditional Japanese heritage and contemporary minimalism.',

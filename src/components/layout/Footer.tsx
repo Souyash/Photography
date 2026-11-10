@@ -69,14 +69,14 @@ export const Footer: React.FC = () => {
             <a href="#" onClick={(e) => { e.preventDefault(); scrollToTop(); }} className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border border-[#D4AF37]/50 flex-shrink-0">
                 <img
-                  src="/images/sudipto-mukherjee.jpg"
-                  alt="Sudipto Mukherjee"
+                  src="/images/sabyasachi-banerjee.jpg"
+                  alt="Sabyasachi Banerjee"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div>
                 <span className="font-serif text-2xl tracking-[0.14em] text-white font-medium block leading-none">
-                  SUDIPTO MUKHERJEE
+                  SABYASACHI BANERJEE
                 </span>
                 <span className="text-[9px] uppercase tracking-[0.3em] text-[#D4AF37] font-medium mt-1 block">
                   Fine Art Photography & Visuals
@@ -107,7 +107,7 @@ export const Footer: React.FC = () => {
                 <YoutubeIcon className="w-4 h-4" />
               </a>
               <a
-                href="mailto:atelier@aureliaphotography.com"
+                href="mailto:atelier@sabyasachibanerjee.com"
                 className="w-8 h-8 rounded-full bg-white/5 hover:bg-[#D4AF37]/20 border border-white/10 hover:border-[#D4AF37] flex items-center justify-center text-stone-300 hover:text-[#D4AF37] transition-all"
                 aria-label="Email"
               >
@@ -164,7 +164,7 @@ export const Footer: React.FC = () => {
             </p>
             <p className="text-stone-400">
               Private Telegram / WhatsApp:
-              <span className="text-[#D4AF37] block mt-0.5">@aurelia_concierge</span>
+              <span className="text-[#D4AF37] block mt-0.5">@sabyasachi_concierge</span>
             </p>
             <p className="text-[10px] text-stone-500 pt-2">
               All bookings secured by formal artistic engagement contract.
@@ -174,7 +174,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-stone-500">
-          <p>© {new Date().getFullYear()} Sudipto Mukherjee Visual Studio. All rights reserved. Fine Art Photography & Cinema.</p>
+          <p>© {new Date().getFullYear()} Sabyasachi Banerjee Visual Studio. All rights reserved. Fine Art Photography & Cinema.</p>
 
           <div className="flex items-center gap-6">
             <a href="#portfolio" className="hover:text-stone-300 transition-colors">Portfolio Archive</a>

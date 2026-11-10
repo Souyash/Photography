@@ -1,7 +1,50 @@
-import React from 'react';
-import { Film, Compass, Award, Eye } from 'lucide-react';
+import React, { useState } from 'react';
+import { Film, Compass, Award, Eye, Camera, Sliders, Mic } from 'lucide-react';
+
+interface ArtistView {
+  id: string;
+  title: string;
+  icon: React.ComponentType<{ className?: string }>;
+  roleTag: string;
+  caption: string;
+  image: string;
+  position: string;
+}
 
 export const AboutSection: React.FC = () => {
+  const artistViews: ArtistView[] = [
+    {
+      id: 'camera',
+      title: 'Cinematography',
+      icon: Camera,
+      roleTag: 'Founder & Principal Director',
+      caption: 'Lead Cinematographer · Master Lens & Visual Storytelling',
+      image: '/images/sabyasachi-banerjee-camera.jpg',
+      position: '65% 25%',
+    },
+    {
+      id: 'console',
+      title: 'Live Direction',
+      icon: Sliders,
+      roleTag: 'Broadcast & Production Director',
+      caption: 'Live Vision Mixing · Multi-Cam Switching & Technical Artistry',
+      image: '/images/sabyasachi-banerjee-console.jpg',
+      position: '55% 22%',
+    },
+    {
+      id: 'studio',
+      title: 'Studio Sound',
+      icon: Mic,
+      roleTag: 'Acoustic Craft & Narration',
+      caption: 'Studio Audio · Heirloom Vows & Pristine Narrative Sound',
+      image: '/images/sabyasachi-banerjee-studio.jpg',
+      position: '50% 18%',
+    },
+  ];
+
+  const [activeViewIndex, setActiveViewIndex] = useState(0);
+  const activeView = artistViews[activeViewIndex];
+
   const pillars = [
     {
       icon: Eye,
@@ -34,23 +77,64 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group aspect-[4/5] sm:aspect-[3/4] max-h-[620px] w-full bg-[#121214]">
               <img
-                src="/images/sudipto-mukherjee.jpg"
-                alt="Sudipto Mukherjee, Lead Photographer & Principal Visual Artist"
-                className="w-full h-full object-cover filter contrast-[1.05] group-hover:scale-105 transition-transform duration-700"
-                style={{ objectPosition: '50% 18%' }}
+                key={activeView.id}
+                src={activeView.image}
+                alt={`Sabyasachi Banerjee - ${activeView.title}`}
+                className="w-full h-full object-cover filter contrast-[1.05] group-hover:scale-105 transition-all duration-700 animate-fadeIn"
+                style={{ objectPosition: activeView.position }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent pointer-events-none" />
+
+              {/* View Switcher Pills */}
+              <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-20">
+                <div className="flex items-center gap-1.5 p-1 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 shadow-lg">
+                  {artistViews.map((view, idx) => {
+                    const Icon = view.icon;
+                    const isActive = idx === activeViewIndex;
+                    return (
+                      <button
+                        key={view.id}
+                        onClick={() => setActiveViewIndex(idx)}
+                        className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[10px] font-mono tracking-wider transition-all duration-200 ${
+                          isActive
+                            ? 'bg-[#D4AF37] text-black font-semibold shadow-sm'
+                            : 'text-stone-300 hover:text-white hover:bg-white/10'
+                        }`}
+                        title={view.caption}
+                      >
+                        <Icon className="w-3 h-3" />
+                        <span className="hidden sm:inline">{view.title}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
               
-              <div className="absolute bottom-6 left-6 right-6">
+              {/* Bottom Caption & Bio Tag */}
+              <div className="absolute bottom-6 left-6 right-6 z-20">
                 <span className="text-[10px] uppercase tracking-[0.25em] text-[#D4AF37] font-semibold">
-                  Founder & Principal Director
+                  {activeView.roleTag}
                 </span>
                 <h4 className="font-serif text-2xl sm:text-3xl text-white font-medium mt-1">
-                  Sudipto Mukherjee
+                  Sabyasachi Banerjee
                 </h4>
                 <p className="text-xs text-stone-300 font-light mt-0.5">
-                  Lead Photographer · Wedding, Editorial & Fine Art Storyteller
+                  {activeView.caption}
                 </p>
+
+                {/* Thumbnail dots/bar indicator */}
+                <div className="flex items-center gap-1.5 mt-3">
+                  {artistViews.map((_, idx) => (
+                    <button
+                      key={idx}
+                      onClick={() => setActiveViewIndex(idx)}
+                      className={`h-1 rounded-full transition-all duration-300 ${
+                        idx === activeViewIndex ? 'w-6 bg-[#D4AF37]' : 'w-2 bg-white/30 hover:bg-white/60'
+                      }`}
+                      aria-label={`View photo ${idx + 1}`}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
 
@@ -75,7 +159,7 @@ export const AboutSection: React.FC = () => {
             </h2>
 
             <p className="text-stone-300 text-sm sm:text-base font-light leading-relaxed">
-              Hello, I am <strong>Sudipto Mukherjee</strong>. Driven by an obsession with organic luminescence, human emotion, and timeless color harmony, I approach every wedding and commission as a living cinematic canvas.
+              Hello, I am <strong>Sabyasachi Banerjee</strong>. Driven by an obsession with organic luminescence, human emotion, and timeless color harmony, I approach every wedding and commission as a living cinematic canvas.
             </p>
 
             <p className="text-stone-400 text-xs sm:text-sm font-light leading-relaxed">

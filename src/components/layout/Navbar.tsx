@@ -32,7 +32,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   }, []);
 
   const navLinks = [
-    { label: 'About Sudipto', href: '#about' },
+    { label: 'About Sabyasachi', href: '#about' },
     { label: 'Portfolio', href: '#portfolio' },
     { label: 'Stories', href: '#stories' },
     { label: 'Packages', href: '#packages' },
@@ -70,14 +70,14 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="relative w-9 h-9 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md flex-shrink-0 group-hover:border-[#D4AF37] transition-colors">
               <img
-                src="/images/sudipto-mukherjee.jpg"
-                alt="Sudipto Mukherjee"
+                src="/images/sabyasachi-banerjee.jpg"
+                alt="Sabyasachi Banerjee"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="flex flex-col items-start">
               <span className="font-serif text-xl sm:text-2xl tracking-[0.16em] text-[#F4F4F6] font-medium group-hover:text-[#D4AF37] transition-colors duration-300 leading-none">
-                SUDIPTO MUKHERJEE
+                SABYASACHI BANERJEE
               </span>
               <span className="text-[8.5px] uppercase tracking-[0.32em] text-[#D4AF37] font-sans font-medium pl-0.5 mt-1">
                 Photography & Visuals
