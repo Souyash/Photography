@@ -113,7 +113,7 @@ export const AboutSection: React.FC = () => {
               {/* Bottom Caption & Bio Tag */}
               <div className="absolute bottom-6 left-6 right-6 z-20">
                 <span className="text-[10px] uppercase tracking-[0.25em] text-[#D4AF37] font-semibold">
-                  {activeView.roleTag}
+                  {activeView.roleTag} · Subha Artha Production House
                 </span>
                 <h4 className="font-serif text-2xl sm:text-3xl text-white font-medium mt-1">
                   Sabyasachi Banerjee
@@ -159,7 +159,7 @@ export const AboutSection: React.FC = () => {
             </h2>
 
             <p className="text-stone-300 text-sm sm:text-base font-light leading-relaxed">
-              Hello, I am <strong>Sabyasachi Banerjee</strong>. Driven by an obsession with organic luminescence, human emotion, and timeless color harmony, I approach every wedding and commission as a living cinematic canvas.
+              Hello, I am <strong>Sabyasachi Banerjee</strong>, founder and principal director of <strong>Subha Artha Production House</strong>. Driven by an obsession with organic luminescence, human emotion, and timeless color harmony, I approach every wedding and commission as a living cinematic canvas.
             </p>
 
             <p className="text-stone-400 text-xs sm:text-sm font-light leading-relaxed">

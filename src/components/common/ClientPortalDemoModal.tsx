@@ -53,7 +53,7 @@ export const ClientPortalDemoModal: React.FC<ClientPortalDemoModalProps> = ({
               <div className="text-left">
                 <div className="text-xs font-semibold text-white flex items-center gap-1.5">
                   <Lock className="w-3 h-3 text-[#D4AF37]" />
-                  <span>Sabyasachi Banerjee Private Vault™ · Client Suite Preview</span>
+                  <span>Subha Artha Production House · Private Vault™ Preview</span>
                 </div>
                 <div className="text-[10px] text-stone-400 font-mono">
                   Collection: Eleanor & Julian · Villa Balbiano (540 Photos)

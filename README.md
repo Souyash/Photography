@@ -1,6 +1,6 @@
-# Sabyasachi Banerjee | Luxury Photography & Visual Studio
+# Subha Artha Production House | Photography, Cinema & Visuals
 
-A high-performance, visually immersive fine art photography portfolio and studio booking web application designed for **Sabyasachi Banerjee**—documenting timeless weddings, pre-weddings, haute couture editorials, and international celebrations worldwide.
+A high-performance, visually immersive fine art photography and cinema booking web application designed for **Subha Artha Production House**, led by **Sabyasachi Banerjee**—documenting timeless weddings, pre-weddings, haute couture editorials, and international celebrations worldwide.
 
 ---
 
@@ -56,4 +56,4 @@ npm run build
 ---
 
 ## License
-© Sabyasachi Banerjee Visual Studio LLC. All rights reserved.
+© Subha Artha Production House. All rights reserved. Directed by Sabyasachi Banerjee.

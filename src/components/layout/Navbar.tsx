@@ -71,16 +71,16 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="relative w-9 h-9 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md flex-shrink-0 group-hover:border-[#D4AF37] transition-colors">
               <img
                 src="/images/sabyasachi-banerjee.jpg"
-                alt="Sabyasachi Banerjee"
+                alt="Subha Artha Production House"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="flex flex-col items-start">
-              <span className="font-serif text-xl sm:text-2xl tracking-[0.16em] text-[#F4F4F6] font-medium group-hover:text-[#D4AF37] transition-colors duration-300 leading-none">
-                SABYASACHI BANERJEE
+              <span className="font-serif text-lg sm:text-xl tracking-[0.12em] text-[#F4F4F6] font-medium group-hover:text-[#D4AF37] transition-colors duration-300 leading-none">
+                SUBHA ARTHA
               </span>
-              <span className="text-[8.5px] uppercase tracking-[0.32em] text-[#D4AF37] font-sans font-medium pl-0.5 mt-1">
-                Photography & Visuals
+              <span className="text-[8px] uppercase tracking-[0.24em] text-[#D4AF37] font-sans font-medium pl-0.5 mt-1">
+                Production House
               </span>
             </div>
           </a>

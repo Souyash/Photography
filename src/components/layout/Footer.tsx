@@ -70,21 +70,21 @@ export const Footer: React.FC = () => {
               <div className="w-10 h-10 rounded-full overflow-hidden border border-[#D4AF37]/50 flex-shrink-0">
                 <img
                   src="/images/sabyasachi-banerjee.jpg"
-                  alt="Sabyasachi Banerjee"
+                  alt="Subha Artha Production House"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div>
-                <span className="font-serif text-2xl tracking-[0.14em] text-white font-medium block leading-none">
-                  SABYASACHI BANERJEE
+                <span className="font-serif text-xl sm:text-2xl tracking-[0.12em] text-white font-medium block leading-none">
+                  SUBHA ARTHA
                 </span>
-                <span className="text-[9px] uppercase tracking-[0.3em] text-[#D4AF37] font-medium mt-1 block">
-                  Fine Art Photography & Visuals
+                <span className="text-[9px] uppercase tracking-[0.25em] text-[#D4AF37] font-medium mt-1 block">
+                  Production House · Directed by Sabyasachi Banerjee
                 </span>
               </div>
             </a>
             <p className="text-xs text-stone-400 font-light leading-relaxed max-w-sm">
-              Documenting priceless human stories and timeless heirlooms for discerning couples, architectural commissions, and cultural celebrations worldwide.
+              Documenting priceless human stories, cinematic weddings, and high-impact visual productions for discerning clients and cultural celebrations worldwide.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
@@ -174,7 +174,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-stone-500">
-          <p>© {new Date().getFullYear()} Sabyasachi Banerjee Visual Studio. All rights reserved. Fine Art Photography & Cinema.</p>
+          <p>© {new Date().getFullYear()} Subha Artha Production House. All rights reserved. Directed by Sabyasachi Banerjee.</p>
 
           <div className="flex items-center gap-6">
             <a href="#portfolio" className="hover:text-stone-300 transition-colors">Portfolio Archive</a>

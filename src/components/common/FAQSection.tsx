@@ -66,7 +66,7 @@ export const FAQSection: React.FC = () => {
           </h2>
 
           <p className="text-stone-400 text-xs sm:text-sm font-light leading-relaxed">
-            Everything you need to know about commissioning Sabyasachi Banerjee for your wedding, editorial campaign, or international celebration.
+            Everything you need to know about commissioning Subha Artha Production House and Sabyasachi Banerjee for your wedding, editorial campaign, or international celebration.
           </p>
         </div>
 

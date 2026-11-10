@@ -165,7 +165,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="flex items-center gap-3">
               <span className="h-[1px] w-8 bg-[#D4AF37]" />
               <span className="text-xs uppercase tracking-[0.3em] text-[#D4AF37] font-semibold">
-                Sabyasachi Banerjee · Fine Art & Cinema
+                Subha Artha Production House · Sabyasachi Banerjee
               </span>
             </div>
 
